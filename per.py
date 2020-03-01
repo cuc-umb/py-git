@@ -1,4 +1,5 @@
 import random
+from math import *
 
 NofEx = int(input('Введите номер задания: '))
 
@@ -14,6 +15,15 @@ if NofEx == 1:
                   k1+=1
       print('четных: ',k0)
       print('нечетных: ',k1)
+
+if NofEx == 2:
+      a = 0.0; b = 0.0; c = 0.0
+      a = random.uniform(1, 10)
+      print('Катет a: ', a)
+      b = random.uniform(1, 10)
+      print('Катет b: ', b)
+      c = sqrt((a ** 2)+(b ** 2))
+      print('Гипотенуза: ',c)
             
 
 if NofEx == 4:
