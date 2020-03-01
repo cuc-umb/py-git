@@ -25,6 +25,14 @@ if NofEx == 2:
       c = sqrt((a ** 2)+(b ** 2))
       print('Гипотенуза: ',c)
             
+if NofEx == 3:
+      a = 0; b = 0; c = 0
+      sum = ''
+      a = random.randint(1, 6)
+      b = random.randint(1, 6)
+      c = random.randint(1, 6)
+      sum= str(a) + str(b) + str(c) 
+      print(sum)     
 
 if NofEx == 4:
       actors = ['Смычкова Татьяна','Скрипкина Светлана','Саксофонова Ирина',
