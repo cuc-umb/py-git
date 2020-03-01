@@ -45,3 +45,14 @@ if NofEx == 4:
       random.shuffle(actors); str2 = ''.join(actors)+ "\n"; print(str2)
       print('Третий этап')
       random.shuffle(actors); str3 = ''.join(actors)+ "\n"; print(str3)
+
+if NofEx == 5:
+      n = int(input('Промежуток n: '))
+      m = int(input('Колличество m: '))
+      a = []
+      if(m<n):
+            for i in range(m):
+                  a.append(random.randint(0, n)) 
+            print(a)
+      else: 
+            print('неправильное m')
