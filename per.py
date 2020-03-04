@@ -56,3 +56,70 @@ if NofEx == 5:
             print(a)
       else: 
             print('неправильное m')
+
+if NofEx == 6:
+      k=0
+      human = ['Проверяйкина Елена','Честный Олег','Ревизоров Дмитрий','Злобина Василиса','Добрякова Татьяна']
+      places = ['д. Большие Пупсы','г. Верхние васюки','д. Михайлючка','с. Гадюкино','пгт. Мамай','д. Бороденка',
+                  'г. Бобрик','с. Весёлая жизнь','д. Кошки','г. Хохотуй','с. Похлёбкино','пгт. Цаца','с. Бабаево']
+      # h1=[]; h2=[]; h3=[]; h4=[]; h5=[]
+      # h1.append(random.choice(human)); h1.append(random.sample(places, k = random.randint(1, 3)))
+      # print(h1)
+      # h2.append(random.choice(human)); h2.append(random.sample(places, k = random.randint(1, 3)))
+      # print(h2)
+      # h3.append(random.choice(human)); h3.append(random.sample(places, k = random.randint(1, 3)))
+      # print(h3)
+      # h4.append(random.choice(human)); h4.append(random.sample(places, k = random.randint(1, 3)))
+      # print(h4)
+      # h5.append(random.choice(human)); h5.append(random.sample(places, k = random.randint(1, 3)))
+      # print(h5)
+      for i in range(len(human)):
+            human[i] = random.sample(places, k = random.randint(1,3))
+      print(human)
+
+if NofEx == 7:
+      auto = ['Nissan','Toyota','Honda','Audi']
+      colors = ['Аквамарин(сине-зеленый)','Амазонка(ярко-зелёный)','Борнео (серебристо-тёмно-серый)','Звёздная Пыль (бежево-сиреневый)',
+                  'Красный перец (серебристо-вишнёвый)','Магия (серебристо-ярко-фиолетовый)','Посейдон (тёмно-синий)',
+                  'Франкония (тёмно-вишнёво-малиновый)','Черника(тёмно-синий)']
+      res = []
+      res.append(random.sample(auto, k=1) + random.sample(colors, k=1))
+      res.append(random.sample(auto, k=1) + random.sample(colors, k=1))
+      res.append(random.sample(auto, k=1) + random.sample(colors, k=1))
+      print(res)
+
+if NofEx == 8:
+      students = {'Агатьева Арина','Алексеева Пальмира','Алексеев Феликс','Борисова Екатерина','Васильев Иван',
+                  'Григорьева Елена','Данилов Александр','Жидова Анастасия','Исаков Константин','Иванов Иван',
+                  'Клементьева Екатерина','Николаева Анжелика','Николаева Анна','Николаев Кирилл','Родионова Елена',
+                  'Семёнова Анна','Терентьев Юрий','Фёдоров Владимир'}
+      boys = ['Алексеев Феликс','Васильев Иван','Данилов Александр','Исаков Константин','Иванов Иван',
+            'Терентьев Юрий','Фёдоров Владимир']
+      girls = ['Агатьева Арина','Алексеева Пальмира','Борисова Екатерина','Григорьева Елена','Жидова Анастасия',
+            'Родионова Елена','Семёнова Анна']
+      print('----------1-я неделя месяца----------')
+      print('В понедельник дежурят',random.choice(boys),'и', random.choice(girls));print('В вторник дежурят',random.choice(boys),'и', random.choice(girls));print('В среду дежурят',random.choice(boys),'и', random.choice(girls))
+      print('В четверг дежурят',random.choice(boys),'и', random.choice(girls));print('В пятницу дежурят',random.choice(boys),'и', random.choice(girls));print('В субботу дежурят',random.choice(boys),'и', random.choice(girls))
+      print('----------2-я неделя месяца----------')
+      print('В понедельник дежурят',random.choice(boys),'и', random.choice(girls));print('В вторник дежурят',random.choice(boys),'и', random.choice(girls));print('В среду дежурят',random.choice(boys),'и', random.choice(girls))
+      print('В четверг дежурят',random.choice(boys),'и', random.choice(girls));print('В пятницу дежурят',random.choice(boys),'и', random.choice(girls));print('В субботу дежурят',random.choice(boys),'и', random.choice(girls))
+      print('----------3-я неделя месяца----------')
+      print('В понедельник дежурят',random.choice(boys),'и', random.choice(girls));print('В вторник дежурят',random.choice(boys),'и', random.choice(girls));print('В среду дежурят',random.choice(boys),'и', random.choice(girls))
+      print('В четверг дежурят',random.choice(boys),'и', random.choice(girls));print('В пятницу дежурят',random.choice(boys),'и', random.choice(girls));print('В субботу дежурят',random.choice(boys),'и', random.choice(girls))
+      print('----------4-я неделя месяца----------')
+      print('В понедельник дежурят',random.choice(boys),'и', random.choice(girls));print('В вторник дежурят',random.choice(boys),'и', random.choice(girls));print('В среду дежурят',random.choice(boys),'и', random.choice(girls))
+      print('В четверг дежурят',random.choice(boys),'и', random.choice(girls));print('В пятницу дежурят',random.choice(boys),'и', random.choice(girls));print('В субботу дежурят',random.choice(boys),'и', random.choice(girls))
+      # k = 0
+      # k1 = 0
+      # for i in range(len(students)):
+      #       a = ','.join(students)
+      # print(a)
+      # for i in range(len(a)):
+      #       if a[i] == ' ':
+      #             if a[i-1] == 'а':
+      #                   k+=1
+      #                   print('девушка ',k)
+      #             else: 
+      #                   k1+=1
+      #                   print('парень ',k1) 
+      
